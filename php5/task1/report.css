@@ -1,0 +1,57 @@
+
+/*Previous CSS file to save time, ammended button names to work here*/
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: palevioletred;
+    padding: 40px;
+}
+
+/* heading H1 and H4 */
+h1 {
+    text-align: center;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+}
+
+
+/* button styling*/
+button {
+    width: 48%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+#dateButton {
+    background-color: navy;
+    color: white;
+    border-radius: 6px; /*same as last css labs, just giving it a curved edge*/
+    width: 200px;          
+    display: block;        /* center block */
+    margin: 10px auto;     /* center horizontally along webpage*/
+}
+
+/*if hovering above the ammend button it will chnage colour*/
+#dateButton:hover {
+    background-color: royalblue;
+}
+
+
+#nameButton {
+    background-color: navy;
+    color: white;
+    border-radius: 6px; /*same as last css labs, just giving it a curved edge*/
+    width: 200px;          
+    display: block;        /* center block */
+    margin: 10px auto;     /* center horizontally along webpage*/
+}
+
+/*if hovering above the ammend button it will chnage colour*/
+#nameButton:hover {
+    background-color: royalblue;
+}
