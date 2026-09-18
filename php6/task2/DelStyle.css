@@ -1,0 +1,72 @@
+
+/*Colours are those i picked through Visual Studio code, not good with colours so not sure if it looks acceptable, sorry*/
+/*AmendView css file*/
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: palevioletred;
+    padding: 40px;
+}
+/* label tags, make bold */
+label {
+    display: block;
+    font-weight: bold;
+    color: black;
+}
+
+/* input field tags, same way of doing as H1 and label, set width colour etc */
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+/* heading H1 and H4 */
+h1 {
+    text-align: center;
+    color: black;
+}
+
+h4 {
+    text-align: center;
+    color: black;
+}
+
+/* anything in form tags*/
+form {
+    width: 380px;
+    margin: auto;
+    background: whitesmoke;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+
+/* button styling*/
+button {
+    width: 48%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Sspecifically for submit button, just different colours to differentiat */
+button[type="submit"] {
+    background: blue;
+    color: white;
+}
+
+/*specifiacally for hovering on submit, make it lighter*/
+button[type="submit"]:hover {
+    background: lightskyblue;
+}
+
+/* reset button type*/
+button[type="reset"] {
+    background: white;
+}
+/*if hovering above reset button*/
+button[type="reset"]:hover {
+    background: lightsalmon;
+}
