@@ -1,0 +1,116 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: palevioletred;
+    padding: 40px;
+    min-height: 100vh;  /*viewport hight or vh = 100, means full page will be pink regalrdless of size of the acual contents.*/
+    margin: 0;
+}
+
+/* label tags, make bold */
+label {
+    display: block;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+
+/* input field tags */
+input[type='text'],
+input[type='password'] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type='text']:focus,
+input[type='password']:focus {
+    outline: none;
+    border-color: palevioletred;
+    box-shadow: 0 0 5px rgba(219, 112, 147, 0.5);
+}
+
+/* headings */
+h1, h2, h3, h4 {
+    text-align: center;
+    color: black;
+}
+
+/* form container */
+form {
+    width: 380px;
+    margin: auto;
+    background: whitesmoke;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* submit input button */
+input[type='submit'] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+input[type='submit']:hover {
+    background: lightskyblue;
+    color: black;
+}
+
+/* regular buttons e.g. Change Password, Main Menu */
+input[type='button'] {
+    width: 48%;
+    padding: 10px;
+    font-size: 15px;
+    background: white;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px 1%;
+}
+
+input[type='button']:hover {
+    background: lightsalmon;
+}
+
+/* error and success message styling */
+.errorstyle {
+    width: 380px;
+    margin: 15px auto;
+    background: whitesmoke;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    color: darkred;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* not logged in message */
+.nologin {
+    width: 380px;
+    margin: 40px auto;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: darkred;
+    font-size: 18px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
